@@ -1,0 +1,202 @@
+[
+    {
+        "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "make": "Velocity Motors",
+        "model": "Nebula GT",
+        "year": 2023,
+        "color": "Solar Blue",
+        "engine": "Quantum V8",
+        "topSpeed": 220,
+        "price": 80000
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "make": "Electra Motors",
+        "model": "Thunderstrike EV",
+        "year": 2024,
+        "color": "Electric Silver",
+        "batteryRange": 300,
+        "acceleration": 4.2,
+        "price": 65000
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "make": "Apex Auto",
+        "model": "Stealth X",
+        "year": 2022,
+        "color": "Midnight Black",
+        "fuel": "Gasoline",
+        "fuelEfficiency": 25,
+        "price": 70000
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "make": "Quantum Drive",
+        "model": "Fusion X3",
+        "year": 2025,
+        "color": "Quantum Red",
+        "autonomousFeatures": "Level 3",
+        "aiInfotainmentSystem": "QuantumSync",
+        "price": 90000
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "make": "Aurora Motors",
+        "model": "Zenith ZR",
+        "year": 2023,
+        "color": "Aurora Green",
+        "convertible": true,
+        "specialFeature": "SkyView Roof",
+        "price": 75000
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "make": "Lunar Vehicles",
+        "model": "Orbit X",
+        "year": 2024,
+        "color": "Galactic Silver",
+        "engine": "Lunar Boost",
+        "topSpeed": 240,
+        "price": 85000
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "make": "HyperDrive Cars",
+        "model": "Velocity Pro",
+        "year": 2023,
+        "color": "Hyper Blue",
+        "engine": "Quantum X9",
+        "topSpeed": 230,
+        "price": 82000
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "make": "Futura Automotive",
+        "model": "Eclipse",
+        "year": 2025,
+        "color": "Stellar Black",
+        "batteryRange": 320,
+        "acceleration": 3.8,
+        "price": 72000
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "make": "Zen Motors",
+        "model": "Harmony EV",
+        "year": 2024,
+        "color": "Zen White",
+        "batteryRange": 280,
+        "acceleration": 4.5,
+        "price": 69000
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "make": "Quantum Dynamics",
+        "model": "Infinity Q",
+        "year": 2022,
+        "color": "Quantum Silver",
+        "fuel": "Hydrogen",
+        "fuelEfficiency": 30,
+        "price": 95000
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "make": "Solar Cars",
+        "model": "Sunburst S",
+        "year": 2023,
+        "color": "Solar Yellow",
+        "convertible": false,
+        "specialFeature": "Solar Panels",
+        "price": 78000
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "make": "Neptune Motors",
+        "model": "Tidal Wave",
+        "year": 2025,
+        "color": "Neptune Blue",
+        "autonomousFeatures": "Level 2",
+        "aiInfotainmentSystem": "Neptune Sync",
+        "price": 88000
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "make": "Quantum Drive",
+        "model": "Nova X",
+        "year": 2023,
+        "color": "Quantum Purple",
+        "engine": "Quantum X7",
+        "topSpeed": 225,
+        "price": 83000
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "make": "Aero Cars",
+        "model": "Skyline",
+        "year": 2024,
+        "color": "Aero Silver",
+        "batteryRange": 310,
+        "acceleration": 4.0,
+        "price": 71000
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "make": "Fusion Motors",
+        "model": "Solaris",
+        "year": 2022,
+        "color": "Fusion Red",
+        "fuel": "Solar",
+        "fuelEfficiency": "Unlimited",
+        "price": 99000
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "make": "Titan Vehicles",
+        "model": "Titanium X",
+        "year": 2025,
+        "color": "Titanium Silver",
+        "autonomousFeatures": "Level 4",
+        "aiInfotainmentSystem": "Titan Sync Pro",
+        "price": 100000
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "make": "Zenith Motors",
+        "model": "Quantum Z",
+        "year": 2023,
+        "color": "Zenith Red",
+        "convertible": true,
+        "specialFeature": "Zenith Drive Assist",
+        "price": 76000
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "make": "Vortex Cars",
+        "model": "Whirlwind",
+        "year": 2024,
+        "color": "Vortex Blue",
+        "batteryRange": 290,
+        "acceleration": 4.3,
+        "price": 68000
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "make": "Quantum Motors",
+        "model": "Quasar Q",
+        "year": 2022,
+        "color": "Quantum Gold",
+        "fuel": "Quantum Fusion",
+        "fuelEfficiency": 28,
+        "price": 92000
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "make": "Solaris Vehicles",
+        "model": "Eclipse E",
+        "year": 2023,
+        "color": "Solaris Orange",
+        "convertible": false,
+        "specialFeature": "Solaris Drive Mode",
+        "price": 79000
+      }
+]
