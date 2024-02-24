@@ -1,7 +1,7 @@
 import { verify as jwtVerify, JsonWebTokenError } from "jsonwebtoken";
 
 import type { Request, Response, NextFunction } from "express";
-import type { JwtPayload } from "utils/jwt";
+import type { JwtPayload } from "../util/jwt";
 
 interface RequestWithToken extends Request {
   payload?: JwtPayload;

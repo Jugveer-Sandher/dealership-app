@@ -1,6 +1,5 @@
-import { createPost, updateCar, deleteCar, getCar, getAllCars } from "../services/postService";
+import { createPost, updatePost, deletePost, getPost, getAllPosts } from "../services/postService";
 import type { Request, Response, NextFunction } from "express"
-import { prismaClient } from "../util/db";
 
 const CreatePost = async (req: Request, res: Response, next: NextFunction) => {
     try {
@@ -24,80 +23,77 @@ const CreatePost = async (req: Request, res: Response, next: NextFunction) => {
         }
 };
 
-// const GetCars = async (req: Request, res: Response, next: NextFunction) => {
-//     try {
-//         const cars = await getAllCars();
-//         res.status(200).json({
-//             cars,
-//         });
-//     } catch (error) {
-//         next(error);
-//     }
-// };
+const GetAllPosts = async (req: Request, res: Response, next: NextFunction) => {
+    try {
+        const posts = await getAllPosts();
+        res.status(200).json({
+            posts,
+        });
+    } catch (error) {
+        next(error);
+    }
+};
 
-// const GetCar = async (req: Request, res: Response, next: NextFunction) => {
-//     try {
-//         const { id } = req.params;
-//         const idAsInt = parseInt(id, 10);
-//         const car = await getCar(idAsInt);
-//         if (!car) {
-//             throw new Error(`Car with id = ${id} does not exist`);
-//         }
-//         res.status(200).json({
-//             car,
-//         });
-//     } catch (error) {
-//         next(error);
-//     }
-// };
+const GetPost = async (req: Request, res: Response, next: NextFunction) => {
+    try {
+        const { id } = req.params;
+        const post = await getPost(id);
+        if (!post) {
+            throw new Error(`Post with id = ${id} does not exist`);
+        }
+        res.status(200).json({
+            post,
+        });
+    } catch (error) {
+        next(error);
+    }
+};
 
-// const DeleteCar = async (req: Request, res: Response, next: NextFunction) => {
-//     try {
-//         const { id } = req.params;
-//         const idAsInt = parseInt(id, 10);
+const DeletePost = async (req: Request, res: Response, next: NextFunction) => {
+    try {
+        const { id } = req.params;
   
-//         const post = await getCar(idAsInt);
-//         if (!post) {
-//             throw new Error(`Post with id = ${id} does not exist`);
-//         }
+        const post = await getPost(id);
+        if (!post) {
+            throw new Error(`Post with id = ${id} does not exist`);
+        }
   
-//         await deleteCar(idAsInt);
-//         res.status(200).json({
-//         message: "Post deleted",
-//     });
-//     } catch (error) {
-//         next(error);
-//     }
-// };
+        await deletePost(id);
+        res.status(200).json({
+        message: "Post deleted",
+    });
+    } catch (error) {
+        next(error);
+    }
+};
 
-// const UpdateCar = async (req: Request, res: Response, next: NextFunction) => {
-//     try {
-//       const { id } = req.params;
-//       const idAsInt = parseInt(id, 10);
-//       const { image, make, model, year, color, price, kilometers } = req.body;
+const UpdatePost = async (req: Request, res: Response, next: NextFunction) => {
+    try {
+      const { id } = req.params;
+      const { image, make, model, year, color, price, kilometers } = req.body;
   
-//       const post = await getCar(idAsInt);
-//       if (!post) {
-//         throw new Error(`Post with id = ${id} does not exist`);
-//       }
+      const post = await getPost(id);
+      if (!post) {
+        throw new Error(`Post with id = ${id} does not exist`);
+      }
 
-//       const upCar = await updateCar(
-//         idAsInt,
-//         image,
-//         make,
-//         model,
-//         year,
-//         color,
-//         price,
-//         kilometers
-//       );
-//       res.status(200).json({
-//         upCar,
-//       });
-//     } catch (error) {
-//       console.log(error);
-//       next(error);
-//     }
-// };
+      const upCar = await updatePost(
+        id,
+        image,
+        make,
+        model,
+        year,
+        color,
+        price,
+        kilometers
+      );
+      res.status(200).json({
+        upCar,
+      });
+    } catch (error) {
+      console.log(error);
+      next(error);
+    }
+};
 
-export { CreatePost }//, GetCars, GetCar, DeleteCar, UpdateCar }
+export { CreatePost , GetAllPosts, GetPost, UpdatePost, DeletePost}

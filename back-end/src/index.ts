@@ -2,10 +2,8 @@ import * as dotenv from "dotenv";
 import express from "express";
 import cors from "cors";
 import helmet from "helmet";
-import carRoutes from "./routes/postRoutes"
-import authRoutes from "./routes/authRoutes"
-
-const router = express.Router();
+import carRoutes from "./routes/postRoutes";
+import authRoutes from "./routes/authRoutes";
 
 dotenv.config();
 
@@ -22,10 +20,9 @@ app.use(cors());
 app.use(express.json());
 app.use(helmet());
 
-router.use("/post", carRoutes);
-router.use("/auth", authRoutes);
-
-app.use("/", router);
+// Routes
+app.use("/post", carRoutes);
+app.use("/auth", authRoutes);
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {

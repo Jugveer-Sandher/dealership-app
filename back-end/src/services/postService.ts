@@ -1,5 +1,3 @@
-import { Post } from "@prisma/client";
-
 const { prismaClient } = require('../util/db.ts');
 
 const createPost = async (
@@ -31,8 +29,8 @@ const createPost = async (
 };
 
 
-const updateCar = async (
-    carId: string,
+const updatePost = async (
+    postId: string,
     image: string,
     make: string,
     model: string,
@@ -41,9 +39,9 @@ const updateCar = async (
     price: number,
     kilometers: number
 ) => {
-    const car = await prismaClient.car.update({
+    const post = await prismaClient.post.update({
         where: {
-            id: carId
+            id: postId
         },
         data: {
             image: image,
@@ -56,30 +54,30 @@ const updateCar = async (
         }
     });
 
-    return car;
+    return post;
 };
 
-const deleteCar = async (carId: number) => {
-    const del = await prismaClient.car.delete({
+const deletePost = async (postId: string) => {
+    const del = await prismaClient.post.delete({
       where: {
-        id: carId,
+        id: postId,
       },
     });
 };
 
-const getCar = async (carId: number) => {
-    const car = await prismaClient.car.findUnique({
+const getPost = async (postId: string) => {
+    const post = await prismaClient.post.findUnique({
       where: {
-        id: carId,
+        id: postId,
       }
     })
 
-    return car;
+    return post;
 };
   
-const getAllCars = async () => {
-    const car = await prismaClient.car.findMany()
-    return car;
+const getAllPosts = async () => {
+    const posts = await prismaClient.post.findMany()
+    return posts;
 };
 
-export { createPost, getCar, getAllCars, updateCar, deleteCar };
+export { createPost, getPost, getAllPosts, updatePost, deletePost };
