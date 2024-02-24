@@ -1,0 +1,152 @@
+[
+  {
+      "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "make": "Velocity Motors",
+      "model": "Nebula GT",
+      "year": 2023,
+      "color": "Solar Blue",
+      "price": 80000,
+      "kilometers": 15000,
+      "id": 0
+  },
+  {
+      "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "make": "Electra Motors",
+      "model": "Thunderstrike EV",
+      "year": 2024,
+      "color": "Electric Silver",
+      "price": 65000,
+      "kilometers": 20000,
+      "id": 1
+  },
+  {
+      "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "make": "Apex Auto",
+      "model": "Stealth X",
+      "year": 2022,
+      "color": "Midnight Black",
+      "price": 70000,
+      "kilometers": 30000,
+      "id": 2
+  },
+  {
+      "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "make": "Quantum Drive",
+      "model": "Fusion X3",
+      "year": 2025,
+      "color": "Quantum Red",
+      "price": 90000,
+      "kilometers": 25000,
+      "id": 3
+  },
+  {
+      "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "make": "Aurora Motors",
+      "model": "Zenith ZR",
+      "year": 2023,
+      "color": "Aurora Green",
+      "price": 75000,
+      "kilometers": 18000,
+      "id": 4
+  },
+  {
+      "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "make": "Lunar Vehicles",
+      "model": "Orbit X",
+      "year": 2024,
+      "color": "Galactic Silver",
+      "price": 85000,
+      "kilometers": 22000,
+      "id": 5
+  },
+  {
+      "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "make": "HyperDrive Cars",
+      "model": "Velocity Pro",
+      "year": 2023,
+      "color": "Hyper Blue",
+      "price": 82000,
+      "kilometers": 17000,
+      "id": 6
+  },
+  {
+      "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "make": "Futura Automotive",
+      "model": "Eclipse",
+      "year": 2025,
+      "color": "Stellar Black",
+      "price": 72000,
+      "kilometers": 20000,
+      "id": 7
+  },
+  {
+      "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "make": "Zen Motors",
+      "model": "Harmony EV",
+      "year": 2024,
+      "color": "Zen White",
+      "price": 69000,
+      "kilometers": 19000,
+      "id": 8
+  },
+  {
+      "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "make": "Quantum Dynamics",
+      "model": "Infinity Q",
+      "year": 2022,
+      "color": "Quantum Silver",
+      "price": 95000,
+      "kilometers": 30000,
+      "id": 9
+  },
+  {
+      "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "make": "Solar Cars",
+      "model": "Sunburst S",
+      "year": 2023,
+      "color": "Solar Yellow",
+      "price": 78000,
+      "kilometers": 25000,
+      "id": 10
+  },
+  {
+      "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "make": "Neptune Motors",
+      "model": "Tidal Wave",
+      "year": 2025,
+      "color": "Neptune Blue",
+      "price": 88000,
+      "kilometers": 22000,
+      "id": 11
+  },
+  {
+      "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "make": "Quantum Drive",
+      "model": "Nova X",
+      "year": 2023,
+      "color": "Quantum Purple",
+      "price": 83000,
+      "kilometers": 18000,
+      "id": 12
+  },
+  {
+      "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "make": "Aero Cars",
+      "model": "Skyline",
+      "year": 2024,
+      "color": "Aero Silver",
+      "price": 71000,
+      "kilometers": 19000,
+      "id": 13
+  },
+  {
+      "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "make": "Fusion Motors",
+      "model": "Solaris",
+      "year": 2022,
+      "color": "Fusion Red",
+      "price": 99000,
+      "kilometers": 22000,
+      "id": 14
+  }
+]
